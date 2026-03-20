@@ -52,10 +52,21 @@ border-radius: 25px;
 cursor: pointer;
 }
 
+#submitButton:disabled {
+	background-color: grey; 
+	border: 1px solid grey;
+}
+
 input {
   padding: 10px;
 }
 
 h1 {
   font-size: 22px;
+}
+
+#errorMessage {
+  color: red;
+  font-size: 14px;
+  min-height: 20px;
 }
